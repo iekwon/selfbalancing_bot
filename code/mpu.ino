@@ -13,6 +13,7 @@
     2. Only then set ENABLE_OUTER_LOOP = true and tune KpVel/KiVel from
        very small values to trim out slow drift.
 */
+// change the kp kd and ki values based on your bot , first change your kp , then kd and then ki 
 
 #include <Wire.h>
 
